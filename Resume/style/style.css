@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .block-left{
-    position: absolute;
     width: 370px;;
     height:1319px;
     overflow:auto;
@@ -13,7 +16,6 @@
 
 .block-right{
     width: 1200px;
-    height: 1319px;
     overflow:auto;
     left: 40px;
     top: 40px;
@@ -24,19 +26,107 @@
 position: absolute;
 width: 60px;
 height: 354px;
-left:0px;
+left:8px;
 top: 80px;
 }
 
-/* li{
-    position: absolute;
-width: 153px;
-height: 17px;
-left: 498px;
-top: 142px;
-font-style: normal;
+.contact{
 font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+font-size: 22px;
+line-height: 27px;
+margin-top: 49px;
+margin-left: 40px;
+color: #FFFFFF;
+}
+.contact-e{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 11px;
+    margin-left:40px;
+    color: #FFFFFF;
+ }
+ .contact-c{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 11px;
+    margin-left:40px;
+    color: #FFFFFF;
+    }
+        
+.phone-info{
+    position: absolute;
+    width: 157px;
+    left: 69px;
+    top: 456px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-decoration: none !important;
+    border: none !important; 
+}
 
+.email-info{
+    position: absolute;
+    width: 157px;
+    left: 69px;
+    top: 494px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.skills{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 640px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.bulleted-list {
+    position: absolute;
+    width: 72px;
+    height: 168px;
+    left: 23px;
+    top: 680px;
+    font-size: 14px;
+    line-height: 24px;
+
+
+/* color: #FFFFFF; */
+}
+
+li {
+    color:#FB6D3A; /* Цвет маркеров */
+   }
+ li span {
+    color: #FFFFFF; /* Цвет текста */
+   }
+
+.softSkills{
+    position: absolute;
+    font-weight: 700;
+    width: 113px;
+    margin-left: 40px;
+    top: 862px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.bulleted-soft-list{
+    position: absolute;
+    width: 72px;
+    height: 168px;
+    left: 23px;
+    top: 910px;
+    font-size: 14px;
+    line-height: 24px;
+
+
+/* color: #FFFFFF; */
+}
