@@ -22,21 +22,22 @@ body{
     background: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+
 .resum-people{
-position: absolute;
-width: 60px;
-height: 354px;
-left:8px;
-top: 80px;
+    position: absolute;
+    width: 60px;
+    height: 354px;
+    left:8px;
+    top: 80px;
 }
 
 .contact{
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-margin-top: 49px;
-margin-left: 40px;
-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 49px;
+    margin-left: 40px;
+    color: #FFFFFF;
 }
 .contact-e{
     font-weight: 700;
@@ -96,17 +97,15 @@ color: #FFFFFF;
     top: 680px;
     font-size: 14px;
     line-height: 24px;
-
-
-/* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
-li {
-    color:#FB6D3A; /* Цвет маркеров */
-   }
- li span {
-    color: #FFFFFF; /* Цвет текста */
-   }
+.point-orange::marker {
+    color: #FB6D3A;
+    font-size: 14px;
+    line-height: 24px;
+}
+
 
 .softSkills{
     position: absolute;
@@ -126,7 +125,5 @@ li {
     top: 910px;
     font-size: 14px;
     line-height: 24px;
-
-
-/* color: #FFFFFF; */
+    color: #FFFFFF;
 }
