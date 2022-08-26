@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
 }
 
 .block-left{
@@ -39,6 +41,7 @@ body{
     margin-left: 40px;
     color: #FFFFFF;
 }
+
 .contact-e{
     font-weight: 700;
     font-size: 14px;
@@ -47,6 +50,7 @@ body{
     margin-left:40px;
     color: #FFFFFF;
  }
+
  .contact-c{
     font-weight: 700;
     font-size: 14px;
@@ -54,7 +58,7 @@ body{
     margin-top: 11px;
     margin-left:40px;
     color: #FFFFFF;
-    }
+}
         
 .phone-info{
     position: absolute;
@@ -106,24 +110,110 @@ body{
     line-height: 24px;
 }
 
-
 .softSkills{
     position: absolute;
     font-weight: 700;
     width: 113px;
     margin-left: 40px;
-    top: 862px;
+    top: 880px;
     font-size: 22px;
     line-height: 27px;
     color: #FFFFFF;
 }
+
 .bulleted-soft-list{
     position: absolute;
     width: 72px;
     height: 168px;
     left: 23px;
-    top: 910px;
+    top: 930px;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+}
+
+.works-in{
+    position: absolute;
+    width: 153px;
+    height: 17px;
+    left: 498px;
+    top: 142px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.name{
+    position: absolute;
+    width: 342px;
+    height: 50px;
+    left: 498px;
+    top: 160px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.main-info{
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    left: 498px;
+    top: 265px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+
+.proj{
+    position: absolute;
+    width: 95px;
+    height: 27px;
+    left: 498px;
+    top: 412px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.proj-title{
+    
+}
+.proj-item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.project{
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project-link{
+    text-decoration: none;
+    color:#000000
+}
+.project-braket{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;   
+}
+.main-project{
+    padding: 0;
+    margin-left: 15px;
+}
+.project-link{
+    margin-left: 10px;
 }
