@@ -1,11 +1,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color:#F5F7FA;
+
 }
 /* main */
 .main{
     display: flex;
     flex-direction: row-reverse;
-    background-color:#F5F7FA;
     width: 1200px;
     margin: 0 auto;
     
@@ -13,29 +14,161 @@ body{
 
 .main_content{
     background-color: #fff;
-    padding-left: 88px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
 }
 
-/* about */
 .about{
-
+    margin-bottom: 51px;
+}
+.about-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
 }
 
+.user-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+
+.about-info{
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+/* project */
 .project{
-    
+    margin-bottom: 51px;
+}
+
+.project-titel{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.project-link::marker{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.project-link{
+    padding-left: 13px;
+}
+.project-info{
+    text-decoration: none;
+    color:#595959;
+}
+.project-marker{
+    padding: 0;
+    margin-left: 17px;
+    color: #595959;
+}
+
+.marker-span{
+    font-weight: 700;
+    color:#000000;
 }
 /* work */
-.work{
 
+.work-main-info{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
 }
-/* .work-li::marker {
+.work-info-title{
+    color:#FB6D3A;
+}
+
+.work-main, .education-main{
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.work-main{
+    margin-bottom: 8px;
+}
+
+.work-point{
+    padding: 0;
+    margin-left: 17px;
+}
+
+.work-li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 509px;
+}
+  
+.work-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.work-li::marker {
     color: #595959;
     font-size: 1.2em;
-  } */
-/* education */
-.education{
-
 }
+
+.work-shackle{
+    font-size: 12px;
+    line-height: 15px;
+    color:#000000
+}
+
+.work-info{
+    margin-bottom: px;
+}
+
+.work-info-main-container{
+    margin-bottom: 20px;
+}
+.work-main-container{
+    margin-bottom: 43px;
+}
+/* education */
+.education-info{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.education-marker{
+    color: #FB6D3A;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px ;
+}
+.education-spec{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+}
+
 /* sedebar */
 .sidebar{
     background-color:#1E2939;
@@ -45,7 +178,8 @@ body{
 }
 .img-resume{
     width: 370px;
-    padding-bottom: 50px;
+    height: 354px;
+    margin-bottom: 50px;
 }
 
 .sidebar-title{
@@ -107,6 +241,7 @@ body{
     color:#fff;
     padding: 0;
     margin-left: 17px;
+    
 }
 
 
